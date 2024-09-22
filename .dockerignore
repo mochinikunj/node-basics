@@ -1,5 +1,9 @@
 # .dockerignore
 node_modules/
 
+# Secret keys
+env/
+src/ignore/
+
 # Code coverage
 coverage/

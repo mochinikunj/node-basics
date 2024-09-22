@@ -20,7 +20,7 @@ AWS.config.update({
 const app = express();
 app.use(express.json());
 
-app.get("/health-check", (req, res) => {
+app.get("/healthcheck", (req, res) => {
   console.log("Health check");
   res.send({
     status: "OK",
